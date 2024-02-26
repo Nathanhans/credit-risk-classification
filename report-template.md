@@ -54,3 +54,5 @@ It is more important for us to predict the 1s, i.e. bad loans, as that is the pu
 Predicting good loans is less difficult as they are the majority of observations.  The precision was also lower for the 'bad loan' prediction, at just 87%.  Given the importance of predicting bad loans, 87% may not be sufficient for this analysis.
 
 If you do not recommend any of the models, please justify your reasoning.
+
+87% precision when predicting bad loans seems inadequate.  It would be the recommendation that we continue to explore better models before finalizing this analysis.
