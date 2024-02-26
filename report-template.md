@@ -9,11 +9,12 @@ In this section, describe the analysis you completed for the machine learning mo
 The purpose of this analysis is to predict loan status (paying as expected vs. in default).
 
 * Explain what financial information the data was on, and what you needed to predict.
+
 The financial data that was provided are several variables that are indicative of credit quality, ranging from borrower income to the number of derogatory marks on their credit bureau.
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 
-The 'loan status' variable we are trying to predict is a binary variable, and only 3.2% of the observations are a '1'.  That would indicate that the 1 represents a bad loan, and the 0 is a loan in good standing.
+The 'loan status' variable we are trying to predict is a binary variable, and only 3.2% of the observations are a '1'.  That would indicate that the 1 represents a bad loan, and the 0 is a loan in good standing.  There are a total of 77536 observations, of which about 2500 are bad.
 
 * Describe the stages of the machine learning process you went through as part of this analysis.
 
@@ -48,6 +49,8 @@ NA - only had one model.  However, it did perform relatively well, but it would 
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
-It is more important for us to predict the 1s, i.e. bad loans, as that is the purpose of the model.  Predicting good loans is less difficult as they are the majority of observations.  The accuracy was also lower for the 'bad loan' prediction.
+It is more important for us to predict the 1s, i.e. bad loans, as that is the purpose of the model. 
+
+Predicting good loans is less difficult as they are the majority of observations.  The precision was also lower for the 'bad loan' prediction, at just 87%.  Given the importance of predicting bad loans, 87% may not be sufficient for this analysis.
 
 If you do not recommend any of the models, please justify your reasoning.
